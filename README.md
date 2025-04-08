@@ -128,7 +128,8 @@ from scipy import stats
 import numpy as np
 ```
 ```
-df=pd.read_csv("C:\\Users\\priya\\Downloads\\Data_to_Transform.csv")
+df=pd.read_csv("/content/Data_to_Transform.csv")
+df
 df
 ```
 ![image](https://github.com/user-attachments/assets/6ccca6df-60cc-48ce-9a9a-1e33d27bf7ee)
