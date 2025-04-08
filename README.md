@@ -38,8 +38,9 @@ import pandas as pd
 df=pd.read_csv("/content/Encoding Data.csv")
 ```
 df
-```
-![image](https://github.com/user-attachments/assets/e84bed62-736a-4948-9746-a11b447b5b24)
+
+![Screenshot 2025-04-08 162738](https://github.com/user-attachments/assets/a89cf25e-c4dd-45bc-84f7-f6bd26eeb726)
+
 ```
 from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
 ```
@@ -95,7 +96,7 @@ from category_encoders import BinaryEncoder
 ```
 import pandas as pd
 ```
-df=pd.read_csv("C:\\Users\\priya\\Downloads\\data.csv")
+df=pd.read_csv("/content/data.csv")
 ```
 be=BinaryEncoder()
 ```
